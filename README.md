@@ -1,9 +1,9 @@
-# Bayesian_Program_Learning
+# Bayesian_Program_Learning 
 
 ![Alt image](https://github.com/PauloRlopez/ML-Bayesian_Program_Learning/blob/master/Images/BPL.png?raw="BPL")
 
 
-if you are intereseded to know what is BPL click [here](http://www.ctvnews.ca/sci-tech/new-algorithm-lets-machines-learn-like-humans-1.2695230) 
+Here is a brief explanation of what [BPL](http://www.ctvnews.ca/sci-tech/new-algorithm-lets-machines-learn-like-humans-1.2695230) is.
 
 ----
 ## Overview
@@ -16,7 +16,7 @@ if you are intereseded to know what is BPL click [here](http://www.ctvnews.ca/sc
 The dependencies can be all install via [pip](https://pypi.python.org/pypi/pip)
 
 1. Numpy
-3. Scipy 
+2. Scipy 
 
 You would also need to install Pillow.
 
