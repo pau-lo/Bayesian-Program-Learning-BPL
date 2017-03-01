@@ -1,3 +1,4 @@
+
 """
 one-shot Handwritten Character Classifier
 
@@ -9,7 +10,7 @@ from scipy.ndimage import imread
 from scipy.spatial.distance import cdist
 
 
-# Parameters
+# Creating the Parameters
 nrun = 20  # Number of classification runs
 path_to_script_dir = os.path.dirname(os.path.realpath(__file__))
 path_to_all_runs = os.path.join(path_to_script_dir, 'all_runs')
@@ -73,15 +74,17 @@ def classification_run(folder, f_load, f_cost, ftype='cost'):
 
 
 def modified_hausdorf_distance(itemA, itemB):
-    # Modified Hausdorff Distance
-    #
-    # Input
-    #  itemA : [n x 2] coordinates of black pixels
-    #  itemB : [m x 2] coordinates of black pixels
-    #
-    #  M.-P. Dubuisson, A. K. Jain (1994). A modified hausdorff distance for object matching.
-    #  International Conference on Pattern Recognition, pp. 566-568.
-    #
+    """ 
+    Modified Hausdorff Distance
+    
+     Input
+      itemA : [n x 2] coordinates of black pixels
+      itemB : [m x 2] coordinates of black pixels
+    
+      M.-P. Dubuisson, A. K. Jain (1994). A modified hausdorff distance for object matching.
+      International Conference on Pattern Recognition, pp. 566-568.
+      
+    """
     D = cdist(itemA, itemB)
     mindist_A = D.min(axis=1)
     mindist_B = D.min(axis=0)
@@ -91,14 +94,16 @@ def modified_hausdorf_distance(itemA, itemB):
 
 
 def load_img_as_points(filename):
-    # Load image file and return coordinates of black pixels in the binary image
-    #
-    # Input
-    #  filename : string, absolute path to image
-    #
-    # Output:
-    #  D : [n x 2] rows are coordinates
-    #
+    """
+    Load image file and return coordinates of black pixels in the binary image
+    
+     Input
+      filename : string, absolute path to image
+    
+     Output:
+      D : [n x 2] rows are coordinates
+      
+    """
     I = imread(filename, flatten=True)
     # Convert to boolean array and invert the pixel values
     I = ~np.array(I, dtype=np.bool)
@@ -109,15 +114,16 @@ def load_img_as_points(filename):
 
 # Main function
 if __name__ == "__main__":
-    #
-    # Running this demo should lead to a result of 38.8% average error rate.
-    #
-    #   M.-P. Dubuisson, A. K. Jain (1994). A modified hausdorff distance for object matching.
-    #     International Conference on Pattern Recognition, pp. 566-568.
-    #
-    # ** Models should be trained on images in 'images_background' directory to
-    #    avoid using images and alphabets used in the one-shot evaluation **
-    #
+    """
+     Running this demo should lead to a result of 38.8% average error rate.
+    
+       M.-P. Dubuisson, A. K. Jain (1994). A modified hausdorff distance for object matching.
+         International Conference on Pattern Recognition, pp. 566-568.
+    
+     ** Models should be trained on images in 'images_background' directory to
+        avoid using images and alphabets used in the one-shot evaluation **
+        
+    """
     print('One-shot classification demo with Modified Hausdorff Distance')
     perror = np.zeros(nrun)
     for r in range(nrun):
@@ -128,3 +134,10 @@ if __name__ == "__main__":
         print(' run {:02d} (error {:.1f}%)'.format(r, perror[r]))
     total = np.mean(perror)
 print('Average error {:.1f}%'.format(total))
+
+
+
+# end!
+
+
+
