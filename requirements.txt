@@ -1,3 +1,7 @@
-pip install numpy
-pip install scipy
-pip install Pillow
+
+# This is the requirements for this project..without any version unspecified.
+# You can install them like this: pip install -r /path/to/requirements.txt 
+
+numpy 
+scipy
+Pillow
