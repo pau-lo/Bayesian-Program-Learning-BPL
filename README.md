@@ -28,9 +28,9 @@ The dependencies can be all install via [pip](https://pypi.python.org/pypi/pip)
 
 ## Disclaimer
 
-The original BPL Matlab repo is [here:](https://github.com/brendenlake/BPL)
+The original BPL repo is [here:](https://github.com/brendenlake/BPL) written in MATLAB.
 
-The original BPL paper can be found on Science:
+The original BPL paper can be found by searching:
 
 Lake, B. M., Salakhutdinov, R., and Tenenbaum, J. B. (2015). Human-level concept learning through probabilistic program induction. Science, 350(6266), 1332-1338.
 
