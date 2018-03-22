@@ -1,6 +1,8 @@
 # Bayesian_Program_Learning 
 
+<center>
 ![Alt image](https://github.com/PauloRlopez/ML-Bayesian_Program_Learning/blob/master/Images/BPL.png?raw="BPL")
+</center>
 
 Here is a brief explanation of what [BPL algorithm](http://www.ctvnews.ca/sci-tech/new-algorithm-lets-machines-learn-like-humans-1.2695230) is.
 
@@ -34,4 +36,4 @@ The original BPL paper can be found by searching:
 
 Lake, B. M., Salakhutdinov, R., and Tenenbaum, J. B. (2015). Human-level concept learning through probabilistic program induction. Science, 350(6266), 1332-1338.
 
-**Thanks**
+
