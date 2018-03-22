@@ -1,8 +1,10 @@
 # Bayesian_Program_Learning 
 
-<center>
-![Alt image](https://github.com/PauloRlopez/ML-Bayesian_Program_Learning/blob/master/Images/BPL.png?raw="BPL")
-</center>
+
+{: .center-image }
+
+![Alt image](https://github.com/PauloRlopez/ML-Bayesian_Program_Learning/blob/master/Images/BPL.png?raw="BPL"){: .center-image }
+
 
 Here is a brief explanation of what [BPL algorithm](http://www.ctvnews.ca/sci-tech/new-algorithm-lets-machines-learn-like-humans-1.2695230) is.
 
