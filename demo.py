@@ -43,8 +43,10 @@ def classification_run(folder, f_load, f_cost, ftype="cost"):
     n_test = len(test_files)
 
     # Load the images (and, if needed, extract features)
-    train_items = [f_load(os.path.join(path_to_all_runs, f)) for f in train_files]
-    test_items = [f_load(os.path.join(path_to_all_runs, f)) for f in test_files]
+    train_items = [f_load(os.path.join(path_to_all_runs, f))
+                   for f in train_files]
+    test_items = [f_load(os.path.join(path_to_all_runs, f))
+                  for f in test_files]
 
     # Compute cost matrix
     costM = np.zeros((n_test, n_train))
@@ -80,7 +82,8 @@ def modified_hausdorf_distance(itemA, itemB):
       itemA : [n x 2] coordinates of black pixels
       itemB : [m x 2] coordinates of black pixels
 
-      M.-P. Dubuisson, A. K. Jain (1994). A modified hausdorff distance for object matching.
+      M.-P. Dubuisson, A. K. Jain (1994).
+      A modified hausdorff distance for object matching.
       International Conference on Pattern Recognition, pp. 566-568.
 
     """
@@ -116,8 +119,9 @@ if __name__ == "__main__":
     """
      Running this demo should lead to a result of 38.8% average error rate.
 
-       M.-P. Dubuisson, A. K. Jain (1994). A modified hausdorff distance for object matching.
-         International Conference on Pattern Recognition, pp. 566-568.
+       M.-P. Dubuisson, A. K. Jain (1994). A modified hausdorff distance
+       for object matching.  International Conference on Pattern Recognition,
+       pp. 566-568.
 
      ** Models should be trained on images in 'images_background' directory to
         avoid using images and alphabets used in the one-shot evaluation **
@@ -135,6 +139,3 @@ if __name__ == "__main__":
         print(" run {:02d} (error {:.1f}%)".format(r, perror[r]))
     total = np.mean(perror)
 print("Average error {:.1f}%".format(total))
-
-
-# end!
