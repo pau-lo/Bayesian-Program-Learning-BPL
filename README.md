@@ -1,4 +1,4 @@
-# Bayesian_Program_Learning -- One Shot Learning
+# A One Shot Learning using Bayesian Program Learning
 
 
 ![Alt image](https://github.com/PauloRlopez/ML-Bayesian_Program_Learning/blob/master/Images/BPL.png?raw="BPL") 
