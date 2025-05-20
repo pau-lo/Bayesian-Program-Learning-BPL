@@ -4,38 +4,35 @@ A Python implementation of a one-shot handwritten character classifier using **B
 
 Inspired by the original research work from [Brenden Lake's GitHub repository](https://github.com/brendenlake/BPL).
 
-<div align="center">
-![Alt image](https://github.com/PauloRlopez/ML-Bayesian_Program_Learning/blob/master/Images/BPL.png?raw="BPL") 
-</div>
+<img src="https://github.com/pau-lo/Bayesian-Program-Learning-BPL/blob/master/Images/BPL.png" width="1200" alt="human and machine learning-BPL">
 
 [Art by Danqing Wang]
-
 
 > Here is a brief explanation of what is [BPL algorithm](http://www.ctvnews.ca/sci-tech/new-algorithm-lets-machines-learn-like-humans-1.2695230).
 
 ----
 
-## 📌 Table of Contents
+## Table of Contents
 
-- [🧠 One-Shot Handwritten Character Classifier with BPL](#-one-shot-handwritten-character-classifier-with-bpl)
-  - [📌 Table of Contents](#-table-of-contents)
-  - [📌 Overview](#-overview)
-  - [📌 Features](#-features)
-  - [📌 Approach \& Methodology](#-approach--methodology)
+- [One-Shot Handwritten Character Classifier with BPL](#-one-shot-handwritten-character-classifier-with-bpl)
+  - [Table of Contents](#-table-of-contents)
+  - [Overview](#-overview)
+  - [Features](#-features)
+  - [Approach \& Methodology](#-approach--methodology)
     - [Key Steps:](#key-steps)
-  - [📦 Requirements](#-requirements)
-  - [📁 Directory Structure](#-directory-structure)
-  - [🚀 How to Use](#-how-to-use)
+  - [Requirements](#-requirements)
+  - [Directory Structure](#-directory-structure)
+  - [How to Use](#-how-to-use)
     - [Step-by-step Instructions:](#step-by-step-instructions)
-  - [📊 Example Output](#-example-output)
-  - [📚 Citation \& Acknowledgments](#-citation--acknowledgments)
+  - [Example Output](#-example-output)
+  - [Citation \& Acknowledgments](#-citation--acknowledgments)
     - [Research Paper:](#research-paper)
     - [Original GitHub Code:](#original-github-code)
-  - [📝 License](#-license)
+  - [License](#-license)
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project implements a one-shot handwritten character classification system, drawing inspiration from the **Bayesian Program Learning (BPL)** framework. The classifier leverages pixel coordinates and modified Hausdorff distance to compare shapes and determine similarity between characters.
 
@@ -43,7 +40,7 @@ The implementation is based on an open-source MATLAB version by [Brenden Lake](h
 
 ---
 
-## 📌 Features
+## Features
 
 - **One-shot learning**: Classify new characters using only a single example.
 - **Modified Hausdorff distance**: A robust measure of shape similarity between two sets of coordinates.
@@ -52,7 +49,7 @@ The implementation is based on an open-source MATLAB version by [Brenden Lake](h
 
 ---
 
-## 📌 Approach & Methodology
+## Approach & Methodology
 
 The classifier follows the principles of **Bayesian Program Learning (BPL)** as described in [Lake et al. (2015)](#citation), where characters are represented by their pixel coordinates, and classification is performed through similarity comparisons using a cost function.
 
@@ -64,7 +61,7 @@ The classifier follows the principles of **Bayesian Program Learning (BPL)** as 
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 Make sure to install the following dependencies:
 
@@ -74,7 +71,7 @@ pip install numpy scipy imageio
 
 ---
 
-## 📁 Directory Structure
+## Directory Structure
 
 The project expects a specific directory structure for input data:
 
@@ -94,7 +91,7 @@ one-shot-classifier/
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 ### Step-by-step Instructions:
 
@@ -114,11 +111,11 @@ python main.py
 
 ---
 
-## 📊 Example Output
+## Example Output
 
 Here’s what you might see after running the classifier:
 
-```
+```bash
 Running one-shot handwritten character classifier
 Run 01: Error rate 45.0%
 Run 02: Error rate 35.0%
@@ -128,7 +125,7 @@ Run 02: Error rate 35.0%
 
 ---
 
-## 📚 Citation & Acknowledgments
+## Citation & Acknowledgments
 
 This project is inspired by the original work of [Brenden Lake](https://github.com/brendenlake/BPL) and is adapted into Python for modern use.
 
@@ -145,7 +142,7 @@ This project is inspired by the original work of [Brenden Lake](https://github.c
 
 ---
 
-## 📝 License
+## License
 
 This project is licensed under the **MIT License**.
 
