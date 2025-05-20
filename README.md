@@ -36,4 +36,4 @@ The original BPL repo is [here:](https://github.com/brendenlake/BPL) written in 
 
 The original BPL paper can be found by searching:
 
-Lake, B. M., Salakhutdinov, R., and Tenenbaum, J. B. (2015). Human-level concept learning through probabilistic program induction. Science, 350(6266), 1332-1338.
+[Lake, B. M., Salakhutdinov, R., and Tenenbaum, J. B. (2015). Human-level concept learning through probabilistic program induction. Science, 350(6266), 1332-1338.](https://www.science.org/doi/abs/10.1126/science.aab3050)
