@@ -4,13 +4,14 @@ A Python implementation of a one-shot handwritten character classifier using **B
 
 Inspired by the original research work from [Brenden Lake's GitHub repository](https://github.com/brendenlake/BPL).
 
-
+<div align="center">
 ![Alt image](https://github.com/PauloRlopez/ML-Bayesian_Program_Learning/blob/master/Images/BPL.png?raw="BPL") 
+</div>
 
 [Art by Danqing Wang]
 
 
-> Here is a brief explanation of what [BPL algorithm](http://www.ctvnews.ca/sci-tech/new-algorithm-lets-machines-learn-like-humans-1.2695230) is.
+> Here is a brief explanation of what is [BPL algorithm](http://www.ctvnews.ca/sci-tech/new-algorithm-lets-machines-learn-like-humans-1.2695230).
 
 ----
 
