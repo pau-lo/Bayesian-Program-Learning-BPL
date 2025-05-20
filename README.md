@@ -86,7 +86,7 @@ one-shot-classifier/
 │   └── ...                 # Each run has its own label file (`class_labels.txt`)
 │
 ├── README.md               # This file
-└── one_shot_classifier.py  # Main implementation script
+└── main.py  # Main implementation script
 ```
 
 > ⚠️ **Note:** All image files and label files should be placed in the `all_runs/` directory.
@@ -104,7 +104,7 @@ one-shot-classifier/
 2. **Run the classifier**:
 
 ```bash
-python one_shot_classifier.py
+python main.py
 ```
 
 3. **Output**:
@@ -119,10 +119,10 @@ Here’s what you might see after running the classifier:
 
 ```
 Running one-shot handwritten character classifier
-Run 01: Error rate 4.5%
-Run 02: Error rate 3.8%
+Run 01: Error rate 45.0%
+Run 02: Error rate 35.0%
 ...
-Average error rate across 20 runs: 4.2%
+[RESULT] Average error rate across 20 runs: 38.8%
 ```
 
 ---
