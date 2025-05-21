@@ -32,7 +32,7 @@ class OneShotClassifier:
         self,
         nrun: int = 20,
         script_dir: str = None,
-        all_runs_dir: str = "all_runs",
+        all_runs_dir: str = "./data/all_runs",
         label_filename: str = "class_labels.txt"
     ):
         """
