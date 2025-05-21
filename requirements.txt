@@ -1,7 +1,15 @@
-
-# This is the requirements for this project..without any version unspecified.
+# installation
 # pip install -r /path/to/requirements.txt 
 
-numpy 
-scipy
-Pillow
+# Required dependencies for One-shot Handwritten Character Classifier
+
+# Provides the cdist function used to calculate distances between points.
+scipy==1.15.2
+
+# NumPy: fundamental package for scientific computing with Python.
+numpy==1.26.4
+
+# imageio: reads and writes images in various formats (e.g., PNG, JPEG).
+imageio==2.37.0
+
+
