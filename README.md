@@ -78,7 +78,7 @@ The project expects a specific directory structure for input data:
 ```
 one-shot-classifier/
 │
-├── all_runs/               # Contains training and test data
+├── data/all_runs/               # Contains training and test data
 │   ├── run01/
 │   ├── run02/
 │   └── ...                 # Each run has its own label file (`class_labels.txt`)
