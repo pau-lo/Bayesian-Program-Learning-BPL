@@ -51,7 +51,7 @@ The implementation is based on an open-source MATLAB version by [Brenden Lake](h
 
 ## Approach & Methodology
 
-The classifier follows the principles of **Bayesian Program Learning (BPL)** as described in [Lake et al. (2015)](#citation), where characters are represented by their pixel coordinates, and classification is performed through similarity comparisons using a cost function.
+The classifier follows the principles of **Bayesian Program Learning (BPL)** as described in [Lake et al. (2015)](https://www.science.org/doi/abs/10.1126/science.aab3050), where characters are represented by their pixel coordinates, and classification is performed through similarity comparisons using a cost function.
 
 ### Key Steps:
 1. Load image pixel coordinates.
@@ -133,8 +133,7 @@ This project is inspired by the original work of [Brenden Lake](https://github.c
 
 > Lake, B. M., Salakhutdinov, R., and Tenenbaum, J. B. (2015).  
 > **Human-level concept learning through probabilistic program induction**.  
-> *Science*, 350(6266), 1332-1338.  
-> [DOI: 10.1126/science.aab3027](https://doi.org/10.1126/science.aab3027)
+> [*Science*, 350(6266), 1332-1338.](https://www.science.org/doi/abs/10.1126/science.aab3050)
 
 ### Original GitHub Code:
 
