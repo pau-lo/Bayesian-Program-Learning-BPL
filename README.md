@@ -4,7 +4,7 @@ A Python implementation of a one-shot handwritten character classifier using **B
 
 Inspired by the original research work from [Brenden Lake's GitHub repository](https://github.com/brendenlake/BPL).
 
-<img src="https://github.com/pau-lo/Bayesian-Program-Learning-BPL/blob/master/Images/BPL.png" width="1200" alt="human and machine learning-BPL">
+<img src="https://github.com/pau-lo/Bayesian-Program-Learning-BPL/blob/master/assets/BPL.png" width="1200" alt="human and machine learning-BPL">
 
 [Art by Danqing Wang]
 
